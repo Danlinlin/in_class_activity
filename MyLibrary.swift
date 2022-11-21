@@ -11,7 +11,7 @@ public class MyLibrary {
 
     public func isLucky(_ number: Int) async -> Bool? {
         // Check the simple case first: 3, 5 and 8 are automatically lucky.
-        if number == 3 || number == 5 || number == 7 {
+        if number == 2 || number == 5 || number == 7 {
             return true
         }
 
