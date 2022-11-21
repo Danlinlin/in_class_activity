@@ -19,7 +19,7 @@ public class MyLibrary {
         // If the current temperature, in Farenheit, contains an 8, then that's lucky.
         do {
             let temperature = try await weatherService.getTemperature()
-            return temperature.contains("8")
+            return temperature.contains("7")
         } catch {
             return nil
         }
